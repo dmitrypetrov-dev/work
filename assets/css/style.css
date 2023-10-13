@@ -1011,9 +1011,11 @@ footer .navbar a.active {
 
 .img-container {
     padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: 100%;
+    height: 18.75rem;
     max-height: 100%;
-    height: 219px;
 }
 
 .img-container img {
@@ -1182,6 +1184,12 @@ footer .navbar a.active {
 
     .managing-expenses-img {
         right: 0.5rem;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .img-container {
+        height: 15.75rem;
     }
 }
 
