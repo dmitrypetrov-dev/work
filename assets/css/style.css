@@ -1171,8 +1171,13 @@ footer .navbar a.active {
 }
 
 @media screen and (max-width: 390px) {
-    .img-align-right {
-        margin-right: -1rem;
+    .img-align-right,
+    .img-align-bottom {
+        margin-right: -0.5rem;
+    }
+
+    .managing-expenses-img {
+        right: 0.5rem;
     }
 }
 
