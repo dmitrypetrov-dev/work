@@ -868,7 +868,7 @@ body {
 }
 
 .card-img {
-    max-width: 6.25rem;
+    max-width: 7.5rem;
 }
 
 .card-img img {
@@ -876,8 +876,8 @@ body {
     height: 100%;
 }
 
-.img-align-right {
-    margin-right: -1rem;
+.money-machine-img {
+    max-width: 5rem;
 }
 
 .img-align-bottom {
@@ -888,6 +888,7 @@ body {
 
 .gaming-features-img {
     right: .9375rem;
+    max-width: 6.5rem;
 }
 
 /* ============================================ *
@@ -1167,6 +1168,12 @@ footer .navbar a.active {
 
 .back-step {
     border: 1px solid var(--white);
+}
+
+@media screen and (max-width: 390px) {
+    .img-align-right {
+        margin-right: -1rem;
+    }
 }
 
 @media screen and (max-height: 830px) {
