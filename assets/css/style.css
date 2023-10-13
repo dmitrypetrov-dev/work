@@ -954,7 +954,7 @@ footer .navbar a.active {
 }
 
 .qoute-bg {
-    background: url(../images/qoute-bg.png) no-repeat center;
+    background: url(../images/qoute-bg.svg) no-repeat center;
     background-position-y: 3rem;
     background-size: cover;
     padding-top: .625rem;
@@ -1019,7 +1019,7 @@ footer .navbar a.active {
 .img-container img {
     /* height: 290px; */
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     max-width: 100%;
     max-height: 100%;
 }
@@ -1061,7 +1061,7 @@ footer .navbar a.active {
 
 .owl-carousel .owl-item img {
     display: initial;
-    width: auto;
+    width: 100%;
 }
 
 
@@ -1174,6 +1174,10 @@ footer .navbar a.active {
     .img-align-right,
     .img-align-bottom {
         margin-right: -0.5rem;
+    }
+
+    .money-machine-img {
+        right: 1rem;
     }
 
     .managing-expenses-img {
