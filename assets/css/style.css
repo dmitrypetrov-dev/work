@@ -603,12 +603,11 @@ body {
     right: 0;
     top: 0;
     opacity: 0;
-    visibility: hidden;
+    z-index: -1;
 }
 
 .reel-step.active {
     opacity: 1;
-    visibility: visible;
     z-index: 10;
 }
 
